@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:id="@+id/etEditNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEditApellidoPat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Paterno"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEditApellidoMat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido Materno2"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEditRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RUT"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEditFono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:minHeight="48dp" />
+
+    <CheckBox
+        android:id="@+id/cbEditBooleano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soltero1" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar" />
+</LinearLayout>

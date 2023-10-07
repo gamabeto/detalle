@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">detalle</string>
+    <string name="guardar_datos">Guardar Datos</string>
+    <string name="mostrar_datos">Mostrar Datos</string>
+    <string name="soltero">SOLTERO</string>
+    <string name="apellido_materno">APELLIDO MATERNO</string>
+    <string name="apellido_paterno">APELLIDO PATERNO</string>
+    <string name="telefono">TELEFONO</string>
+    <string name="nombres">NOMBRES</string>
+    <string name="rut">RUT</string>
+    <string name="mensaje_registro_exitoso">Registro insertado con ID: %1$d</string>
+    <string name="error_insertar_registro">Error al insertar el registro.</string>
+    <string name="campo_vacio">Ingresa un %1$s válido y un %2$s válido.</string>
+    <string name="datos_almacenados">Datos almacenados</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="limpiar">LIMPIAR</string>
+    <string name="validacion_de_los_datos">VALIDACION DE LOS DATOS :</string>
+    <string name="guardar">guardar</string>
+    <string name="volver">Volver</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="soltero1">Soltero</string>
+    <string name="apellido_materno2">Apellido Materno</string>
+</resources>

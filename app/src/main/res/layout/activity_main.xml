@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:hint="@string/nombres"
+        android:textColorHint="#8D6E63"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etApellidoPat"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:hint="@string/apellido_paterno"
+        android:textColorHint="#8D6E63"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etApellidoMat"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:hint="@string/apellido_materno"
+        android:importantForAutofill="no"
+        android:textColorHint="#8D6E63"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/etRut"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:hint="@string/rut"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etFono"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:hint="@string/telefono"
+        android:inputType="number"
+        android:textColorHint="#8D6E63"
+        android:importantForAutofill="no" />
+
+    <CheckBox
+        android:id="@+id/cbBooleano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soltero" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/limpiar" />
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continuar" />
+</LinearLayout>

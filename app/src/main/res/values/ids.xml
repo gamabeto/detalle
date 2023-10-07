@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etNombres" type="id" />
+    <item name="etApellidoPat" type="id" />
+    <item name="etApellidoMat" type="id" />
+    <item name="etRut" type="id" />
+    <item name="etFono" type="id" />
+    <item name="cbBooleano" type="id" />
+    <item name="btnMostrar" type="id" />
+</resources>
